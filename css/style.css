@@ -63,3 +63,29 @@ body{
     border-bottom: 2px solid rgba(255, 255, 255, 8.5);
     resize: none;
 }
+
+.container .formbx form .inputbx input[type="submit"]{
+    background: #fff;
+    padding: 8px 20px;
+    margin-top: -10px;
+    width: 100px;
+    cursor: pointer;
+    background: #ff5064;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    letter-spacing: 4px;
+}
+
+.container .formbx form .inputbx input[type="submit"]:hover{
+    background: #fff;
+    color: #ff5064;
+    font-weight: 700;
+}
+
+.container .formbx form .inputbx input[type="submit"]:focus{
+    background: #1bfaad;
+    color: #111;
+}
