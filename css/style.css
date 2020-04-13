@@ -23,3 +23,43 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
+.container .formbx form{
+    position: relative;
+    width: 100%;
+    padding: 0 0 0 75px;
+}
+
+.container .formbx form h2{
+    color: #fff;
+    font-weight: 500;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.container .formbx form .inputbx{
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.container .formbx form .inputbx:last-child{
+    margin-bottom: 0px;
+}
+
+.container .formbx form .inputbx input,
+.container .formbx form .inputbx textarea{
+    position: relative;
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 100%;
+    color: #fff;
+    padding-bottom: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    border-bottom: 2px solid rgba(255, 255, 255, 8.5);
+    resize: none;
+}
