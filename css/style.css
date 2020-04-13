@@ -142,3 +142,21 @@ body{
     bottom: 0;
     max-height: 95%;
 }
+
+@media (max-width: 991px){
+    .container .formbx{
+        width: 100%;
+        padding: 0 50px;
+    }
+
+    .container .formbx form{
+        width: 100%;
+        max-width: 500px;
+        padding: 0;
+    }
+
+
+    .container .imgbx{
+        display: none;
+    }
+}
